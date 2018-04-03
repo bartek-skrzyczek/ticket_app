@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ticket App</title>
+    <link rel="stylesheet" href="css/reboot.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="wrapper" class="">
+      <!-- navigation left-->
+      <div class="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li>
+            <a href="#">
+              <svg version="1.1" id="Layer_1" height="30" width="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              	 viewBox="0 0 193.2 171" style="enable-background:new 0 0 193.2 171;" xml:space="preserve">
+              <style type="text/css">
+              	.st0{fill:none;stroke:#D8008B;stroke-width:20;stroke-miterlimit:10;}
+              	.st1{fill:none;stroke:#F20090;stroke-width:20;stroke-miterlimit:10;}
+              	.st2{fill:none;stroke:#FF068F;stroke-width:20;stroke-miterlimit:10;}
+              </style>
+              <circle class="st0" cx="85.6" cy="85.7" r="75"/>
+              <line class="st1" x1="76.6" y1="122.9" x2="186.1" y2="13.5"/>
+              <line class="st2" x1="41" y1="73.5" x2="90.4" y2="122.9"/>
+              </svg>
+              <span class="brand">TicketBoard</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="#">
+              <svg fill="#000000" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z"/>
+                  <path d="M0 0h24v24H0z" fill="none"/>
+              </svg>
+              <span class="">Tickets</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg fill="#000000" height=30 viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+              </svg>
+              <span class="">Team</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg fill="#000000" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
+              </svg>
+              <span class="">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg fill="#5e6c84" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                  <path d="M0 0h24v24H0z" fill="none"/>
+              </svg>
+              <span class="">New ticket</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="sidebar-nav bottom">
+          <li>
+            <a href="#">
+              <svg fill="#000000" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+              </svg>
+              <span class="">Profile</span>
+            </a>
+          </li>
+          <li id="menu-toggle">
+            <a href="#">
+              <svg fill="#000000" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
+                  <path d="M0-.5h24v24H0z" fill="none"/>
+              </svg>
+              <svg fill="#000000" height="30" viewBox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+                  <path d="M0-.25h24v24H0z" fill="none"/>
+              </svg>
+              <span class="">Collapse Menu</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+        <!-- main content-->
+      <div class="" id="page-content-wrapper">
+        <div class="mobile-nav-wrapper">
+          <section class="mobile-brand">
+            <div class="container">
+              <a href="#">
+                <svg version="1.1" id="Layer_1" height="30" width="30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                	 viewBox="0 0 193.2 171" style="enable-background:new 0 0 193.2 171;" xml:space="preserve">
+                <style type="text/css">
+                	.st0{fill:none;stroke:#D8008B;stroke-width:20;stroke-miterlimit:10;}
+                	.st1{fill:none;stroke:#F20090;stroke-width:20;stroke-miterlimit:10;}
+                	.st2{fill:none;stroke:#FF068F;stroke-width:20;stroke-miterlimit:10;}
+                </style>
+                <circle class="st0" cx="85.6" cy="85.7" r="75"/>
+                <line class="st1" x1="76.6" y1="122.9" x2="186.1" y2="13.5"/>
+                <line class="st2" x1="41" y1="73.5" x2="90.4" y2="122.9"/>
+                </svg>
+                <span class="brand">TicketBoard</span>
+              </a>
+
+              <div class="hamburger-wrapper">
+                <div id="nav-icon3">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <ul class="mobile-nav">
+            <li class="active">
+              <a href="#">
+                <svg fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+                <span class="mobile-tab">Tickets</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path>
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+                <span class="mobile-tab">Team</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path>
+                </svg>
+                <span class="mobile-tab">Settings</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <section class="filter-main">
+          <div class="container">
+            <h1>Tickets</h1>
+          </div>
+          <div class="container">
+                <div class="version-filter-text-container">
+                  <div class="filter-group">
+                    <div class="input-filter-text-container">
+                      <input type="text" class="version-filter-text text" value="">
+                    </div>
+                    <div class="version-filter-status-text">
+                      <span>Quick filters:</span>
+                      <div class="version-filter-status-container">
+                        <div class="quick-filter">
+                          <a class="quick filter" href="#" data-version-type="released">Assigned to me</a>
+                        </div>
+                        <div class="quick-filter">
+                          <a class="version-filter-button" href="#" data-version-type="unreleased">New</a>
+                        </div>
+                        <div class="quick-filter">
+                          <div class="main">
+                            <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/>
+                                <path d="M0 0h24v24H0z" fill="none"/>
+                            </svg>
+                            <a class="version-filter-button main" href="#" data-version-type="unreleased">Filter by</a>
+                          </div>
+                        </div>
+                        <div class="main-filter-cta">
+                          <a class="version-filter-button main"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                  <div class="main-cta">
+                    <button class="button-primary">Create a new ticket</button>
+                  </div>
+                </div>
+          </div>
+          <div class="container">
+            <ul class="nav-links">
+              <li class="active">
+                <a href="/explore/projects/trending">List</a>
+              </li>
+              <li class=""><a href="/explore/projects/starred">Board
+            </a></li></ul>
+          </div>
+        </section>
+
+        <section class="data-group">
+          <div class="container">
+            <div class="container-table">
+              <div class="wrap-table">
+                <div class="table">
+                  <div class="row header">
+                    <div class="cell">
+                      <label for="me-#= id #">
+                        <input id="me-#= id #" type="checkbox" class="js-selected-h" data-id="#= id #">
+                        <span class="h-checkbox"></span>
+                      </label>
+                    </div>
+                    <div class="cell">
+                      Title
+                    </div>
+                    <div class="cell">
+                      Assigned to
+                    </div>
+                    <div class="cell">
+                      Deadline
+                    </div>
+                    <div class="cell">
+                      Reporter
+                    </div>
+                    <div class="cell">
+                      Priority
+                    </div>
+                    <div class="cell">
+                      Status
+                    </div>
+                    <div class="cell">
+                      Attachments
+                    </div>
+                    <div class="cell">
+                      Created
+                    </div>
+                    <div class="cell">
+                      Description
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="cell" data-title="">
+                      <label for="me-#= id #">
+                        <input id="me-#= id #" type="checkbox" class="js-selected-h" data-id="#= id #">
+                        <span class="h-checkbox"></span>
+                      </label>
+                    </div>
+                    <div class="cell" data-title="title">
+                      <div class="cell-wrapper">
+                        Zapier Integration
+                      </div>
+                    </div>
+                    <div class="cell" data-title="assigned to">
+                      <div class="cell-wrapper">
+                        Anna Lorenc
+                      </div>
+                    </div>
+                    <div class="cell" data-title="deadline">
+                      <div class="cell-wrapper">
+                        in 3 days
+                      </div>
+                    </div>
+                    <div class="cell" data-title="reporter">
+                      <div class="cell-wrapper">
+                        Jerry Washington
+                      </div>
+                    </div>
+                    <div class="cell" data-title="priority">
+                        <svg fill="#ff7212" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 0h24v24H0V0z" fill="none"/>
+                          <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>
+                        </svg>
+                        <div class="cell-wrapper" style="height: 18px">
+                          high
+                        </div>
+                    </div>
+                    <div class="cell" data-title="status">
+                      <div class="cell-wrapper">
+                        in progress
+                      </div>
+                    </div>
+                    <div class="cell" data-title="attachments">
+                      <div class="cell-wrapper">
+                        invoice.pdf
+                      </div>
+                    </div>
+                    <div class="cell" data-title="created">
+                      <div class="cell-wrapper">
+                        22/Mar/18
+                      </div>
+                    </div>
+
+                    <div class="cell" data-title="description">
+                      <div class="cell-wrapper">
+                        Please find attached file, good luck! Please find attached file, good luck! Please find attached file, good luck! Please find attached file, good luck!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/navigation.js"></script>
+  </body>
+</html>
